@@ -27,4 +27,11 @@ header{
     text-align: center;
     font-size: 10px;
 }
-
+#gallery{
+	font-family:'Marck Script', cursive;
+	font-size: 50px;
+	text-align: center;
+}
+#logo{
+	margin-left: 45%;
+	}
