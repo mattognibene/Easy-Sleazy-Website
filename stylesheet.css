@@ -4,8 +4,11 @@
 
 header{
 
-	text-align: center;
-	background: #999;
-	margin: 0px, 30%, 0px, 30%;
-	padding: 5px;
+	height:50px;
+    background:#F0F0F0;
+    border:1px solid #CCC;
+    width:300px;
+    margin:0px auto;
+    text-align: center;
+    font-size: 10px;
 }
