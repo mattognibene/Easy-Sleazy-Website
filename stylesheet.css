@@ -1,5 +1,6 @@
 .tabs{
 	text-align: center;
+	margin-left: 20%;
 }
 
 .tabs li{
@@ -26,3 +27,4 @@ header{
     text-align: center;
     font-size: 10px;
 }
+
