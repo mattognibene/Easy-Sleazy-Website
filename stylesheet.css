@@ -1,40 +1,38 @@
 
-.tabs{
+.navigation{
+	position: static;
+	height:auto;
 	text-align: center;
-	margin-left: 20%;
+	width: 100%
+	margin-left: auto;
 }
+.navigation ul{
+	padding:0;
+}
+.navigation li{
+	
+	text-align: center;
+	display: inline-block;
 
-.tabs li{
+	text-transform: uppercase;
 	text-decoration: none;
-	padding: 5px 10px;
-	margin-right: 2px;
-	text-align: center;
-	float: left;
-	width: 15%;
-	height: 
-	border: 2px solid white;
-	color: white;
-	background-color: #000099;
+	font-size: 1.2em;
+	font-family: "Patrick Hand";
 	list-style-type: none;
+	color: grey;
+}
+.nav_link {
+	position: relative;
+	bottom: 55px;
+	padding: 5px 15px;
+
 }
 
-header{
-
-	height:50px;
-    background:#F0F0F0;
-    border:1px solid #CCC;
-    width:300px;
-    margin:0px auto;
-    text-align: center;
-    font-family: 'Marck Script', cursive;
-    font-size: 15px;
-}
 #gallery{
 	font-family:'Marck Script', cursive;
 	font-size: 50px;
 	text-align: center;
 }
-
 #logo{
 	padding-top: 40px;
 	margin-left:  40%;
@@ -55,3 +53,4 @@ header{
 	font-family:'Marck Script', cursive;
 	font-size: 20px;
 }
+
