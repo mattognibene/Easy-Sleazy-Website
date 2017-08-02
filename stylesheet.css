@@ -15,3 +15,14 @@
 	background-color: #000099;
 	list-style-type: none;
 }
+
+header{
+
+	height:50px;
+    background:#F0F0F0;
+    border:1px solid #CCC;
+    width:300px;
+    margin:0px auto;
+    text-align: center;
+    font-size: 10px;
+}
