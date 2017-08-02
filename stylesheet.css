@@ -5,14 +5,6 @@
 	width: 100%;
 	margin-left: auto;
 }
-body{
-
-}
-.tabs{
-	text-align: center;
-	width: 100%
-	margin-left: auto;
-}
 .navigation ul{
 	padding:0;
 }
@@ -33,18 +25,8 @@ body{
 	bottom: 55px;
 	padding: 5px 15px;
 }
-header{
-	height:50px;
-    background:#F0F0F0;
-    border:1px solid #CCC;
-    width:300px;
-    margin:0px auto;
-    text-align: center;
-    font-family: 'Marck Script', cursive;
-    font-size: 15px;
-}
 
-#gallery{
+#gallery_header{
 	font-family:'Marck Script', cursive;
   font-size: 72px;
   background: -webkit-linear-gradient(#ff6600,#e6b800, #4d79ff);
@@ -52,60 +34,39 @@ header{
   -webkit-text-fill-color: transparent;
 	text-align: center;
 }
-#logo{
-	padding-top: 40px;
-	margin-left:  42.5%;
-	}
+
 #filardopic{
-	margin-top: 40px;
-	margin-left:  37%;
-	border-radius: 100%
+	width: 100%;
 }
-#name{
+#filardopic img{
+	display: block;
+	margin: auto;
+	text-align: center;
+	border-radius: 100%;
+}
+#nick_filardo{
 	text-align: center;
 	font-family:'Marck Script', cursive;
 	font-size: 30px;
-	
 }
 #contact{
 	text-align: center;
 	font-family:'Marck Script', cursive;
 	font-size: 20px;
 	margin-left: 43%
-	}
-#shirt1{
+}
+#gallery_content{
+	width: 100%;
+}
+.shirt{
+	display: block;
 	padding-top: 30px;
-	margin-left: 41%
+	margin: auto;
 }
-#shirt1desc{
+.shirt_description{
+	display: block;
 	text-align: center;
-	font-size: 25px;
-	font-family: "Patrick Hand";
-}
-#shirt2{
-	padding-top: 30px;
-	margin-left: 41%
-}
-#shirt2desc{
-	text-align: center;
-	font-size: 25px;
-	font-family: "Patrick Hand";
-}
-#shirt3{
-	padding-top: 30px;
-	margin-left: 41%
-}
-#shirt3desc{
-	text-align: center;
-	font-size: 25px;
-	font-family: "Patrick Hand";
-}
-#shirt4{
-	padding-top: 30px;
-	margin-left: 41%
-}
-#shirt4desc{
-	text-align: center;
+	margin:auto;
 	font-size: 25px;
 	font-family: "Patrick Hand";
 }
