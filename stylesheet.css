@@ -20,7 +20,8 @@ div{
 	height: auto;
 	display: block;
 	margin: auto;
-	background:rgba(255,255,255, 1);
+	background:rgba(255,255,255,1);
+	transition:.1s ease-in-out;
 }
 
 .navigation ul{
