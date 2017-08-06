@@ -72,11 +72,15 @@ div{
 #gallery_content{
 	display: block;
 	margin: auto;
+	overflow: auto;
+	border: 2px solid black;
 }
 .shirt{
 	display: block;
 	padding-top: 30px;
 	margin: auto;
+	float: left;
+	padding: 30px;
 }
 .shirt_description{
 	display: block;
@@ -88,7 +92,7 @@ div{
 #designpics{
 	text-align: center;
 	display: block;
-	margin: auto;
+	margin: ;
 	padding: 20px;
 }
 footer{
@@ -129,6 +133,9 @@ footer{
 #copyright{
 	font-size: 20px;
 	font-family: "Patrick Hand";
+	text-align: center;
+	display: block;
+	margin: auto;
 }
 
 #socialmedia{
