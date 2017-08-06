@@ -69,11 +69,6 @@ div{
 	font-family:'Marck Script', cursive;
 	font-size: 30px;
 }
-#contact{
-	text-align: center;
-	font-family:'Marck Script', cursive;
-	font-size: 20px
-}
 #gallery_content{
 	display: block;
 	margin: auto;
@@ -126,3 +121,8 @@ footer{
 	font-family: "Patrick Hand";
 }
 
+#socialmedia{
+	text-align: center;
+	font-family:'Marck Script', cursive;
+	font-size: 20px;
+}
