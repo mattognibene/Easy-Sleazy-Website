@@ -22,6 +22,7 @@ div{
 	margin: auto;
 	background:rgba(255,255,255,1);
 	transition:.1s ease-in-out;
+
 }
 
 .navigation ul{
@@ -39,6 +40,12 @@ div{
 	font-family: "Patrick Hand";
 	list-style-type: none;
 	color: grey;
+
+	user-select: none;
+-moz-user-select: none;
+-webkit-user-drag: none;
+-webkit-user-select: none;
+-ms-user-select: none;
 }
 .nav_link {
 	position: relative;
@@ -63,6 +70,12 @@ div{
 	margin: auto;
 	text-align: center;
 	border-radius: 100%;
+	user-drag: none; 
+user-select: none;
+-moz-user-select: none;
+-webkit-user-drag: none;
+-webkit-user-select: none;
+-ms-user-select: none;
 }
 #nick_filardo{
 	text-align: center;
@@ -74,6 +87,12 @@ div{
 	margin: auto;
 	overflow: auto;
 	border: 2px solid black;
+	user-drag: none; 
+user-select: none;
+-moz-user-select: none;
+-webkit-user-drag: none;
+-webkit-user-select: none;
+-ms-user-select: none;
 }
 .shirt{
 	display: block;
@@ -81,6 +100,12 @@ div{
 	margin: auto;
 	float: left;
 	padding: 30px;
+	user-drag: none; 
+user-select: none;
+-moz-user-select: none;
+-webkit-user-drag: none;
+-webkit-user-select: none;
+-ms-user-select: none;
 }
 .shirt_description{
 	display: block;
@@ -94,6 +119,12 @@ div{
 	display: block;
 	margin: ;
 	padding: 20px;
+	user-drag: none; 
+user-select: none;
+-moz-user-select: none;
+-webkit-user-drag: none;
+-webkit-user-select: none;
+-ms-user-select: none;
 }
 footer{
 	display: block;
@@ -105,6 +136,7 @@ footer{
 	margin: auto;
 	width: 765px;
 	height: 400px;
+	padding-bottom: 200px;
 }
 #slider {
 	top: 0px;
@@ -141,5 +173,14 @@ footer{
 #socialmedia{
 	text-align: center;
 	font-family:'Marck Script', cursive;
+	font-size: 20px;
+}
+#bio{
+	padding-top: 20px; 
+	display: block;
+	margin: auto;
+	float: left;
+	text-align: center;
+	font-family: "Marck", cursive;
 	font-size: 20px;
 }
