@@ -6,10 +6,7 @@ $(document).ready(function(){
 	$('li').mouseleave(function(){
 		$(this).css('color', 'grey');
 	});	
-	'use strict';
-
-$(function() {
-
+	
     //settings for slider
     var width = 720;
     var animationSpeed = 1000;
@@ -43,8 +40,14 @@ $(function() {
 
     startSlider();
 
-
-});
-
+    $('#carousel .right').click(function(){
+    	$slideContainer.animate({'margin-left': '-='+width}, 'fast', function() {
+                if (++currentSlide === $slides.length) {
+                    currentSlide = 1;
+                    $slideContainer.css('margin-left', 0);
+                }
+            });
+    	clearInterval(interval);
+	});
 	
 });

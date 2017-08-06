@@ -96,10 +96,20 @@ footer{
 	margin: auto; 
 	text-align: center;
 }
+#carousel{
+	display: block;
+	margin: auto;
+	width: 765px;
+	height: 400px;
+}
 #slider {
+	top: 0px;
     width: 720px;
     height: 400px;
     overflow: hidden;
+    display: block;
+	margin: auto;
+	float: left;
 }
 
 #slider .slides {
