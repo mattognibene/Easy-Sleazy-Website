@@ -55,6 +55,7 @@ div{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 	text-align: center;
+	margin-top: 100px;
 }
 
 #filardopic img{
@@ -71,13 +72,11 @@ div{
 #contact{
 	text-align: center;
 	font-family:'Marck Script', cursive;
-	font-size: 20px;
-	margin-left: 43%
+	font-size: 20px
 }
 #gallery_content{
-	top: 50px;
-	position: relative;
-	width: 100%;
+	display: block;
+	margin: auto;
 }
 .shirt{
 	display: block;
@@ -122,10 +121,8 @@ footer{
     width: 720px;
     height: 400px;
 }
+#copyright{
+	font-size: 20px;
+	font-family: "Patrick Hand";
+}
 
-/* helper css, since we don't have images */
-.slide1 {background: red;}
-.slide2 {background: blue;}
-.slide3 {background: green;}
-.slide4 {background: purple;}
-.slide5 {background: pink;}
