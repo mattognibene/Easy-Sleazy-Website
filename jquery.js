@@ -49,5 +49,14 @@ $(document).ready(function(){
             });
     	clearInterval(interval);
 	});
+	 $('#carousel .right').mouseenter(function(){
+	 	$(this).css("border-color","#3333ff");
+	 	$(this).css("border-width", "2px");
+	 });
+
+	 $('#carousel .right').mouseleave(function(){
+	 	$(this).css("border-color","black");
+	 	$(this).css("border-width", "1px");
+	 })
 	
 });
