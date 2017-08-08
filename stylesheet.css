@@ -131,36 +131,32 @@ footer{
 	margin: auto; 
 	text-align: center;
 }
-#carousel{
-	display: block;
-	margin: auto;
-	width: 765px;
-	height: 400px;
-	padding-bottom: 200px;
+#scroller {
+	width: 90%; 
+	height: 400px; 
+	margin: 0 auto;
+    position: relative;
+    min-width: 700px;
 }
-#slider {
-	top: 0px;
-    width: 720px;
-    height: 400px;
+#scroller .innerScrollArea {
+
     overflow: hidden;
-    display: block;
-	margin: auto;
-	float: left;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
 }
-
-#slider .slides {
-    display: block;
-    width: 6000px;
-    height: 400px;
-    margin: 0;
+#scroller ul {
     padding: 0;
+    margin: 0;
+    position: relative;
 }
-
-#slider .slide {
-    float: left;
+#scroller li {
+    padding: 0;
+    margin: 0;
     list-style-type: none;
-    width: 720px;
-    height: 400px;
+    position: absolute;
 }
 #copyright{
 	font-size: 20px;
@@ -175,12 +171,14 @@ footer{
 	font-family:'Marck Script', cursive;
 	font-size: 20px;
 }
-#bio{
-	padding-top: 20px; 
+#bio p{
+	padding-top: 10px;
+	width: 75%; 
+	position: relative;
 	display: block;
 	margin: auto;
-	float: left;
 	text-align: center;
 	font-family: "Marck", cursive;
 	font-size: 20px;
+
 }
