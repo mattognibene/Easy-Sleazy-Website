@@ -160,16 +160,26 @@ footer{
 }
 #copyright{
 	font-size: 20px;
-	font-family: "Patrick Hand";
+	font-family: "Roboto";
 	text-align: center;
 	display: block;
 	margin: auto;
 }
 
 #socialmedia{
+	margin-top: 40px;
 	text-align: center;
 	font-family:'Marck Script', cursive;
 	font-size: 20px;
+}
+
+#bio{
+	margin-top: 50px;
+	font-family: "Roboto", cursive;
+	text-align: center;
+}
+#bio h1{
+	font-weight: 300;
 }
 #bio p{
 	padding-top: 10px;
@@ -177,8 +187,54 @@ footer{
 	position: relative;
 	display: block;
 	margin: auto;
-	text-align: center;
-	font-family: "Marck", cursive;
 	font-size: 20px;
+	font-weight: 300;
+}
 
+#order{
+	position: relative;
+	display: block;
+	margin: auto;
+	width: 90%;
+	min-width: 874px;
+}
+#order img{
+	border-radius: 5px
+}
+#order div{
+	position: relative;
+	top: 0px;
+}
+#order div h1{
+	text-align: left;
+}
+#order div h3{
+	text-align: left;
+	padding-left: 15px;
+}
+#order li{
+	list-style: none;
+	display: inline-block;
+}
+#order ul{
+	display: block;
+	margin: auto;
+	padding: 0px 0px;
+}
+#styles{
+	overflow: auto;
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+}
+#styles li{
+	margin:5px 10px;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	width: 23%;
+	display: inline-block;
+	overflow: auto;
+}
+.shirt_toggled{
+	border: 2px solid blue;
 }
